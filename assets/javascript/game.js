@@ -25,6 +25,7 @@ function randomCatNumber(){
     }
 }
 
+//reset target number, and button numberes and updates scores etc 
 function resetGame(){
     //produce a random number that is between 19-120 for the total score 
     randomNumber = Math.floor(Math.random()*102) + 19; 
@@ -51,11 +52,9 @@ function resetGame(){
     }
 }
 
-//function displayImage() {
-//    for(i=0; i < images.length; i++){   
-//        $("#cat-buttons").html("<button><img src=" + images[i] + " width='150px', height='150px'></button>");
-//    }
-// }
+
+// =================================== main function of the game ====================================================
+
 
 $("#cat-image").on("click", ".crystal-image", function() {
     var crystalValue = ($(this).attr("data-crystalvalue"));
@@ -83,7 +82,4 @@ $("#cat-image").on("click", ".crystal-image", function() {
 
 resetGame();
 
-//displayImage();
-// =================================== main function of the game ====================================================
 
-//$("#total-score").html("Your total score is: " + counter);
