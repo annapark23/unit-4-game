@@ -1,0 +1,41 @@
+.crystal-image{
+    height:200px;
+    width:200px;
+}
+
+body{
+    background-image: url("../../leaves.png");
+
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#cat-image{
+    text-align: center;
+}
+
+#total-score{
+    text-align: center;
+    font-size:28px;
+}
+
+#scoringSection{
+    font-size:24px;
+    margin: 40px auto;
+
+
+
+}
+
+#directions{
+    margin: 40px auto;
+    font-size: 18px;
+
+
+}
+
